@@ -1,0 +1,10 @@
+node_modules*
+.terraform
+*.js.map
+
+# estado do Terraform (nunca versionar)
+terraform.tfstate
+terraform.tfstate.backup
+
+# histórico local do editor
+.history/
